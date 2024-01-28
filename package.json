@@ -1,0 +1,20 @@
+{
+  "name": "registry-app",
+  "version": "1.0.0",
+  "description": "app to manage and track payments",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "author": "bombenDev",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.0",
+    "express": "^4.18.2",
+    "mysql2": "^3.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
